@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color: rgb(241, 204, 204);
+}
+
+.edades {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 40px;
+    height: 15px; 
+    font-size: 14px;
+    padding: 5px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #ddd;
+}
